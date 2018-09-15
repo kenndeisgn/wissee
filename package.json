@@ -1,0 +1,41 @@
+{
+  "name": "wissee",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/kenndesign/wissee.git",
+  "author": "kenn <kenndesign@126.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "./node_modules/.bin/webpack-dev-server",
+    "test": "jest -u"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.1",
+    "@babel/plugin-proposal-class-properties": "^7.0.0",
+    "@babel/plugin-proposal-decorators": "^7.0.0",
+    "@babel/plugin-proposal-function-bind": "^7.0.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/preset-stage-0": "^7.0.0",
+    "@babel/preset-typescript": "^7.0.0",
+    "@material-ui/core": "^3.0.3",
+    "@types/react": "^16.4.14",
+    "@types/react-dom": "^16.0.7",
+    "ajv": "^6.5.3",
+    "babel-loader": "^8.0.2",
+    "babel-preset-react-hmre": "^1.1.1",
+    "html-webpack-plugin": "^3.2.0",
+    "react": "^16.5.1",
+    "react-dom": "^16.5.1",
+    "react-hot-loader": "^4.3.8",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "source-map-loader": "^0.2.4",
+    "ts-loader": "^5.1.1",
+    "typescript": "^3.0.3",
+    "webpack": "^4.19.0",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.8"
+  }
+}
